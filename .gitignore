@@ -1,0 +1,6 @@
+.idea/
+venv/
+src/rpcs/*
+src/SUMMARY.md
+src/helper/__pycache__/*
+book/
