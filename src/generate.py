@@ -12,7 +12,7 @@ def main():
     controller = CliController()
 
     renderer = RendererMarkdown(output_dir)
-    controller.generate(CliBitcoin("bitcoin-cli -signet"), renderer, None)
+    controller.generate(CliBitcoin("bitcoin-cli -regtest"), renderer, None)
    
 
 if __name__ == '__main__':
